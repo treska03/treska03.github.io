@@ -1,0 +1,168 @@
+/* Reset some default browser styles */
+
+html {
+    height: 100%;
+}
+body, h1, h2, ul, li, p {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 4px 0px; 
+}
+
+li {
+    list-style: none;
+    margin: 5px 0px;
+}
+
+.welcome {
+    box-sizing: border-box;
+    width: 100% !important;
+    height: 100% !important; /* Czemu to nie działa?? */
+    background-image: url("../images/bgphoto.svg");
+    background-size: 100%, 100%;
+}
+
+/* Apply a background color and set text color */
+body {
+    background-image: url("../images/sec-photo-odd.svg");
+    background-size: 250%;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style-type: none;
+    text-align: right;
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Style the main content */
+main {
+    background-color: white;
+    height:100%; /* Czemu to nie działa */
+    max-width: 800px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    margin: 0 auto;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+input, select{
+    height: 25px;
+    margin: 4px 0 15px;
+    padding: 5px;
+    display: block;
+    border: none;
+    width: 100%;
+    background: #cfcdcd;
+    font: black;
+}
+
+select {
+    height: 35px;
+    padding: 0 0 0 5px;
+}
+
+.sec-odd {
+    background-size: 100%;
+}
+
+.sec-even {
+    background-size: 100%;
+
+}
+/* Style sections */
+section {
+    padding: 30px 20px;
+}
+
+hr {
+    margin: 0;
+    background-color: black;
+    height: 2px;
+    margin: 0 20px;
+}
+/* Style the footer */
+footer {
+    margin: 0px auto;
+    text-align: center;
+    background-image: url("../images/bgphoto.svg");
+    background-size: 100%;
+    color: #fff;
+    padding: 20px;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.sec-title {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.sec-about {
+    display : flex;
+}
+
+.about-left {
+    width: 70%
+}
+
+.img-me { 
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.service-list li {
+    list-style: circle;
+    margin-left: 15px;
+}
+
+.form-container {
+    margin: 15px 0;
+    font-size: 120%;
+    background-color: #f2f2f2;
+}
+
+.form-button {
+    margin-top: 10px;
+    border: none;
+    background-color: rgb(75, 255, 47);
+    border-radius: 5px;
+    height: 30px;
+    width: 100%;
+}
+
+.form-button:hover {
+    background-color: rgb(42, 233, 49);
+}
+
+.contact-photo {
+    margin:0px;
+    width: 13px;
+    height: 13px;
+}
+
+.contact-li {
+    font-size: 16px;
+}

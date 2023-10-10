@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Moja Strona</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="home">
+    <div class="welcome">
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">O mnie</a></li>
+                <li><a href="#services">Usługi</a></li>
+                <li><a href="#form">Formularz</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </div>
+    <main>
+        <section id="about" class="sec-odd sec-about">
+            <div class="about-left">
+
+                <h1 class="sec-title">O mnie</h1>
+                <p>Cześć, jestem Bartek, mam 20 lat i jestem studentem informatyki na AGH w Krakowie.<br><br>
+                    Moje pasje i umiejętności w programowaniu oraz sztucznej inteligencji sprawiają, że jestem doskonałym kandydatem do udzielania korepetycji.
+                    Doświadczenie w tych dziedzinach pozwala mi tłumaczyć trudne koncepty w sposób zrozumiały i pomagać innym osiągnąć sukces w nauce. 
+                <br><br>
+                    Jeśli potrzebujesz wsparcia w informatyce, jestem gotowy, aby Ci pomóc! 
+                </p>
+            </div>
+            <div class="about-right">
+                <img class="img-me" src="images/myphoto.png" alt="Me">
+            </div>
+        </section>
+        <hr>
+        <section>
+            <h1 class="sec-title">Dlaczego ja</h1>
+            <ul>
+                <li>1. Indywidualne podejście: Zajęcia dostosowane do potrzeby ucznia oraz jego poziomu</li>
+                <li>2. Elastyczność: Możliwość wybrania dogodnego terminu</li>
+                <li>3. Wsparcie poza zajęciami: W razie pytań i problemów chętnie pomogę, wystarczy pisać :)</li>
+                <li>4. Zrozumienie ucznia: Jako obecny student rozumiem problemy w nauce uczniów</li>
+                <li>5. Podejście do korepetycji: Nauczanie traktuję nie tylko jako pracę, lecz przede wszystkim pasję</li>
+            </ul>
+        </section>
+        <hr>
+        <section id="services" class="sec-even">
+            <h1 class="sec-title">Korepetycje</h1>
+            <ul class="service-list">
+                <li>Matematyka szkoła średnia 2zł/h</li>
+                <li>Matematyka szkoła podstawowa 2zł/h</li>
+                <li>Przygotowania do matury podstawowej z matematyki 2zł/h</li>
+                <li>Przygotowania do matury rozszerzonej z matematyki 2zł/h</li>
+                <li>Informatyka szkoła podstawowa 2zł/h</li>
+                <li>Informatyka szkoła średnia 2zł/h</li>
+                <li>Przygotowania do matury rozszerzonej z informatyki 2zł/h</li>
+                <li>Programowanie w pythonie 2zł/h</li>
+                <li>Programowanie w scratchu 2zł/h</li>
+            </ul>
+        </section>
+        <hr>
+        <section class="sec-odd">
+            <form id="form" action="/action_page.php">
+                <h1 class="sec-title">Zamów korepetycje</h1>
+                <p>Proszę wypełnić formularz by zamówić korepetycje.</p>
+                <hr class="no-margin">
+                <div class="form-container">
+                    <label for="name"><b>Imie</b></label>
+                    <input type="text" placeholder="Imie" name="name" id="name" required>
+                    
+                    <label for="surname"><b>Nazwisko</b></label>
+                    <input type="text" placeholder="Nazwisko" name="surname" id="surname" required>
+                    
+                    <label for="email"><b>Email</b></label>
+                    <input type="text" placeholder="Email" name="email" id="email" required>
+                    
+                    <label for="phone"><b>Telefon kontaktowy</b></label>
+                    <input type="text" placeholder="Numer telefonu" name="phone" id="phone" required>
+                    
+                    <label for="appointment"><b>Wybierz termin</b></label>
+                    <input type="text" placeholder="Termin (dzień.miesiąc.rok)" name="appointment" id="appointment" required>
+                    
+                    <label for="service-type"><b>Wybierz usługę</b></label><br>
+                    <select id="service-type" name="service-type" default="Not selected">
+                        <option class="select-default" value="" selected disabled hidden>Nie wybrano</option>
+                        <option value="saab">Usługa 1</option>
+                        <option value="fiat">Usługa 2</option>
+                        <option value="audi">Usługa 3</option>
+                    </select>
+                </div>
+                <hr class="no-margin">
+                
+                <button type="submit" class="form-button"><b>Wyślij zgłoszenie</b></button>
+                <br><br>
+                <p>If you click the "Submit" button, the form-data will 
+                    be sent to a page called "/action_page.php".</p>
+                
+            </form>
+              
+              
+        </section>
+        <hr>
+        <section id="contact" class="bottom-sec sec-even">
+            <h1 class="sec-title">Kontakt</h1>
+            <address>
+                <ul>
+                    <li class="contact-li">
+                        <img class="contact-photo" src="images/email.png" alt="Email image">
+                        E-mail: dziekanat-ele@iet.agh.edu.pl
+                    </li>
+                    <li class="contact-li">
+                        <img class="contact-photo" src="images/phone.png" alt="Telephone image">
+                        Numer telefonu: +48 666 666 666
+                    </li>
+                    <li class="contact-li">
+                        <img class="contact-photo" src="images/address.png" alt="Adress image">
+                        Adres: Pawilon D-5, Kraków
+                    </li>
+                    
+                </ul>
+            </address>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Bartłomiej Treśka</p>
+    </footer>
+</body>
+</html>
