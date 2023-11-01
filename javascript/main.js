@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     function setHeaderBg(toggled) {
-        if ((window.scrollY > window.innerHeight) && toggled) {
+        if ((window.scrollY > window.innerHeight*0.8) && toggled) {
             header.classList.add('navbar-scrolled');
         } else {
             header.classList.remove('navbar-scrolled');
