@@ -99,7 +99,7 @@ nav a:hover {
 /* czemu kolor nie wszędzie działa */
 form {
     margin: 0 auto;
-    background-color: #f2f2f2;
+    background-color: rgb(251, 238, 196);
     padding: 20px;
 }
 
@@ -232,7 +232,6 @@ footer {
 .form-container {
     margin: 15px 0;
     font-size: 120%;
-    background-color: #f2f2f2;
 }
 
 .form-button {
