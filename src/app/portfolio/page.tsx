@@ -1,19 +1,20 @@
-import React from 'react';
-import Link from 'next/link';
-import { PERSONAL_LINKS } from '@/constants/links';
-import ProjectList from './project_list';
-import { projects } from './data';
+import { PERSONAL_LINKS } from "@/constants/links";
+import Link from "next/link";
+import React from "react";
+import { projects } from "./data";
+import ProjectList from "./project_list";
 
-export default function Portfolio() {
+export default function About() {
   return (
-    <section className="py-8">
+    <section className="py-8 my-2">
       <h1 className="text-4xl font-bold text-gray-900 dark:text-gray-100 mb-4">
         My Portfolio
       </h1>
 
       <div className="space-y-4 mb-8">
         <p className="text-lg text-gray-700 dark:text-gray-300">
-          Here you'll find my CV, professional profiles, and some of the projects I'm most proud of.
+          Here you'll find my CV, professional profiles, and some of the
+          projects I'm most proud of.
         </p>
         <div className="flex flex-wrap items-center space-x-4">
           <Link
@@ -42,7 +43,7 @@ export default function Portfolio() {
           </Link>
         </div>
       </div>
-      <ProjectList projects={projects}/>
+      <ProjectList projects={projects} />
     </section>
   );
 }
