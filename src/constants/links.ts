@@ -4,6 +4,7 @@ export const PERSONAL_LINKS = {
   cv: 'cv.pdf',
   linkedin: 'https://www.linkedin.com/in/bartlomiej-treska/',
   github: githubProfile,
+  mail: 'bartlomiej.treska@gmail.com',
   project_one: `${githubProfile}/Yummier`,
   project_two: `${githubProfile}/GENRunner`,
   project_three: `${githubProfile}/SimpleIntersectionSimulation`,

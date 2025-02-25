@@ -26,13 +26,13 @@ export default function RootLayout({
 }) {
   return (
     <html className="dark" lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        <div
-            className="absolute inset-0 bg-[url('/background-image.jpg')] bg-cover bg-center opacity-25 -z-10"
-        />
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+      >
+        <div className="absolute inset-0 bg-[url('/background-image.jpg')] bg-cover bg-center opacity-25 -z-10" />
         <div className="flex flex-col min-h-screen">
           <Navbar />
-          <main className="flex-grow max-w-7xl flex flex-col gap-8 sm:items-start px-4 mx-auto">
+          <main className="flex-grow xl:w-[80rem] flex flex-col gap-8 sm:items-start px-4 mx-auto">
             {children}
           </main>
           <Footer />
