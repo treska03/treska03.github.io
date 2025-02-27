@@ -13,8 +13,8 @@ export default function About() {
 
       <div className="space-y-4 mb-8">
         <p className="text-lg text-gray-700 dark:text-gray-300">
-          Here you'll find my CV, professional profiles, and some of the
-          projects I'm most proud of.
+          Here you&aphos;ll find my CV, professional profiles, and some of the
+          projects I&aphos;m most proud of.
         </p>
         <div className="flex flex-wrap items-center space-x-4">
           <Link
