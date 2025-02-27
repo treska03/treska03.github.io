@@ -17,6 +17,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Personal Website",
   description: "Bartlomiej Treska's Personal Website",
+  icons: ["/favicon.png"],
 };
 
 export default function RootLayout({

@@ -8,7 +8,7 @@ export default function ProjectList({ projects }: ProjectListProps) {
   return (
     <div>
       <h2 className="text-3xl font-semibold text-gray-900 dark:text-gray-100 mb-4">
-        Projects I&aphos;m Most Proud Of
+        Projects I&#x27;m Most Proud Of
       </h2>
       <ul className="space-y-6">
         {projects.map((project, idx) => {
