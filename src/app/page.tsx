@@ -27,10 +27,10 @@ export default function Home() {
         </p>
       </div>
       <p className="text-lg text-gray-300 max-w-2xl mb-8 text-left">
-        Hi there! I&aphos;m Bartłomiej Treśka, a passionate full-stack developer
+        Hi there! I&#x27;m Bartłomiej Treśka, a passionate full-stack developer
         and a computer science student at AGH University. I enjoy web
-        development, mostly backend. Currently, I&aphos;m most fond of Kotlin
-        and the OOP world.
+        development, mostly backend. Currently, I&#x27;m most fond of Kotlin and
+        the OOP world.
       </p>
       <div className="flex gap-4">
         <Link
