@@ -28,7 +28,7 @@ export default function RootLayout({
   return (
     <html className="dark" lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-black`}
       >
         <div className="absolute inset-0 bg-[url('/background-image.jpg')] bg-cover bg-center opacity-25 -z-10" />
         <div className="flex flex-col min-h-screen">
