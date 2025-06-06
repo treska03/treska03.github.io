@@ -7,7 +7,7 @@ export const PERSONAL_LINKS = {
   mail: 'bartlomiej.treska@gmail.com',
   project_one: `${githubProfile}/Yummier`,
   project_two: `${githubProfile}/GENRunner`,
-  project_three: `${githubProfile}/SimpleIntersectionSimulation`,
+  project_three: `https://github.com/pawlowiczf/rock-com`,
 };
 
 export const TECHNOLOGY_ICON_LINKS = {

@@ -29,13 +29,19 @@ export const projects = [
     ]
   },
   {
-    name: "Intersection Simulation",
-    description: "A simple intersection simulation written as an internship project.",
+    name: "rock-com",
+    description: `A platform for organizing and hosting paddle sports tournaments, 
+    where players can easily join competitions and referees can register to officiate matches.
+    Streamlined tools support match scheduling, participant management, and fair play enforcement.`,
     link: PERSONAL_LINKS.project_three,
     techStackIcons: [
-      TECHNOLOGY_ICON_LINKS.kotlin,
-      TECHNOLOGY_ICON_LINKS.gradle,
-      TECHNOLOGY_ICON_LINKS.git
+      TECHNOLOGY_ICON_LINKS.react,
+      TECHNOLOGY_ICON_LINKS.java,
+      TECHNOLOGY_ICON_LINKS.spring,
+      TECHNOLOGY_ICON_LINKS.typescript,
+      TECHNOLOGY_ICON_LINKS.postgresql,
+      TECHNOLOGY_ICON_LINKS.git,
+      TECHNOLOGY_ICON_LINKS.docker
     ]
   }
 ]
