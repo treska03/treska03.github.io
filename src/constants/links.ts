@@ -1,10 +1,10 @@
-const githubProfile = 'https://github.com/treska03'
+const githubProfile = "https://github.com/treska03";
 
 export const PERSONAL_LINKS = {
-  cv: 'cv.pdf',
-  linkedin: 'https://www.linkedin.com/in/bartlomiej-treska/',
+  cv: "cv.pdf",
+  linkedin: "https://www.linkedin.com/in/bartlomiej-treska/",
   github: githubProfile,
-  mail: 'bartlomiej.treska@gmail.com',
+  mail: "bartlomiej.treska@gmail.com",
   project_one: `${githubProfile}/Yummier`,
   project_two: `${githubProfile}/GENRunner`,
   project_three: `https://github.com/pawlowiczf/rock-com`,
@@ -15,6 +15,7 @@ export const TECHNOLOGY_ICON_LINKS = {
   java: "https://skillicons.dev/icons?i=java",
   python: "https://skillicons.dev/icons?i=python",
   typescript: "https://skillicons.dev/icons?i=typescript",
+  go: "https://skillicons.dev/icons?i=go",
 
   react: "https://skillicons.dev/icons?i=react",
   spring: "https://skillicons.dev/icons?i=spring",
@@ -26,4 +27,5 @@ export const TECHNOLOGY_ICON_LINKS = {
 
   git: "https://skillicons.dev/icons?i=git",
   docker: "https://skillicons.dev/icons?i=docker",
-}
+  kubernetes: "https://skillicons.dev/icons?i=kubernetes",
+};

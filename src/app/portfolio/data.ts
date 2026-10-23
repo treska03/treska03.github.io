@@ -13,20 +13,21 @@ export const projects = [
       TECHNOLOGY_ICON_LINKS.spring,
       TECHNOLOGY_ICON_LINKS.postgresql,
       TECHNOLOGY_ICON_LINKS.git,
-      TECHNOLOGY_ICON_LINKS.docker
-    ]
+      TECHNOLOGY_ICON_LINKS.docker,
+    ],
   },
   {
-    name: "GENRunner",
-    description: "Console application to run multiobjective evolutionary algorithms (MOEA).",
+    name: "Golancer",
+    description: `A lightweight HTTP load balancer written in Go. It reverse-proxies traffic across a pool of backend instances using round-robin, 
+    with a lock-free, copy-on-write registry and a JSON API for adding and removing backends at runtime without restarts. 
+    Ships with liveness/readiness probes, Docker support, and a Helm chart for Kubernetes.`,
     link: PERSONAL_LINKS.project_two,
     techStackIcons: [
-      TECHNOLOGY_ICON_LINKS.java,
-      TECHNOLOGY_ICON_LINKS.spring,
-      TECHNOLOGY_ICON_LINKS.mongodb,
+      TECHNOLOGY_ICON_LINKS.go,
+      TECHNOLOGY_ICON_LINKS.kubernetes,
       TECHNOLOGY_ICON_LINKS.git,
-      TECHNOLOGY_ICON_LINKS.docker
-    ]
+      TECHNOLOGY_ICON_LINKS.docker,
+    ],
   },
   {
     name: "rock-com",
@@ -41,7 +42,7 @@ export const projects = [
       TECHNOLOGY_ICON_LINKS.typescript,
       TECHNOLOGY_ICON_LINKS.postgresql,
       TECHNOLOGY_ICON_LINKS.git,
-      TECHNOLOGY_ICON_LINKS.docker
-    ]
-  }
-]
+      TECHNOLOGY_ICON_LINKS.docker,
+    ],
+  },
+];
